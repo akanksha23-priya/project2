@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gr{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+   
+    
+}
+.list{
+    display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-family:'Dela Gothic One','cursive';
+  margin-left: 70px;
+  margin-bottom:20px;
+  color: #8a8585;
+
+}
+.list-item{
+    margin: 0 20px;
+}
+.container{
+    margin: 50px 50px;
+}
+
+.button-small{
+    border: 0;
+    background-color:#4e4f96;
+    padding: 15px 25px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+}
+.bg{
+   
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top:10px;
+    bottom: 200px;
+    right:0px;
+   height: 600px;
+   width: 100px;
+   margin: 100px auto;
+}
+.heading-text{
+    text-align: left;
+    font-size: 80px;
+    margin-top: 100px;
+}
+.button-large {
+    border: 0;
+    background-color:#4e4f96;
+    padding: 15px 15px;
+    margin: 20px 10px 10px 10px;
+    font-family: 'Dela Gothic One','cursive';
+    font-size: 15px;
+    border-radius: 7px;
+    color: white;
+}
+p{
+    font-family: 'Dela Gothic One','cursive';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #8a8585;
+    
+
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
